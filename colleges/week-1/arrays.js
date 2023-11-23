@@ -81,4 +81,12 @@ console.log(areEqual(firstArray, secondArray));
 
 const isEqualShort = (firstArr, secondArr) => JSON.stringify(firstArr) === JSON.stringify(secondArr);
 
-console.log(isEqualShort(firstArray, secondArray))
+console.log(isEqualShort(firstArray, secondArray));
+
+const matrix = [
+    [0, 1, 2],
+    [6, 7, 8]
+    [9, 9, 1]
+]
+
+matrix[1][1]; // 7
