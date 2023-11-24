@@ -90,3 +90,37 @@ const matrix = [
 ]
 
 matrix[1][1]; // 7
+
+const users = [
+    { userName: 'Tom', cart: ['Soeplepel', 'Fietsband'] },
+    { userName: 'Mark', cart: ['Auto', 'Waterfles'] },
+]
+
+console.log(users.flat());
+const carts = users.map(user => user.cart);
+console.log(carts.flat());
+
+const cartItems = users.flatMap(user => user.cart);
+console.log(carts.flat());
+
+const numbers = [3, 7, 1, 9, 2];
+console.log(numbers.sort());
+const words = ["Soep", "Pollepel", "Sla"];
+const sortedWords = words.sort((a, b) => {
+    if (a.length > b.length) {
+        return -1;
+    }
+
+    if (a.length === b.length) {
+        return 1;
+    }
+});
+console.log(sortedWords);
+
+console.log(numbers);
+
+const sum = numbers.reduce((prev, next) => {
+    return prev + next;
+}, 0);
+
+console.log(sum);
