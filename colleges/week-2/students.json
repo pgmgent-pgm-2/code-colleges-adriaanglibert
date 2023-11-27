@@ -1,0 +1,16 @@
+[
+    {
+        "name": "John",
+        "age": 28,
+        "isOld": false,
+        "ziektes": null,
+        "children": [
+            {
+                "name": "Mieke"
+            }
+        ],
+        "car": {
+            "brand": "Saab"
+        }
+    }
+]
