@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Alice Johnson",
+        "membershipType": "Premium"
+    },
+    {
+        "name": "Bob Smith",
+        "membershipType": "Basic"
+    },
+    {
+        "name": "Eve Williams",
+        "membershipType": "Premium"
+    }
+]

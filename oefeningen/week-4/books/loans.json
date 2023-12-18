@@ -1,0 +1,17 @@
+[
+    {
+        "memberId": 101,
+        "dueDate": "2023-05-01",
+        "returned": false
+    },
+    {
+        "memberId": 102,
+        "dueDate": "2023-04-15",
+        "returned": false
+    },
+    {
+        "memberId": 103,
+        "dueDate": "2023-06-01",
+        "returned": false
+    }
+]

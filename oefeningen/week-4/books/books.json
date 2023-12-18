@@ -1,0 +1,22 @@
+[
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Drama"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian"
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Classics"
+    }
+]
