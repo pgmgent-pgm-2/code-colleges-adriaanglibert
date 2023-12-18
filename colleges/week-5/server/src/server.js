@@ -1,10 +1,11 @@
 const express = require('express');
+const middleware = require('./middleware/development');
 const app = express();
+const userRoutes = require('./routes/users');
 
-app.get('/users', (request, respons) => {
-    console.log(request);
-})
+app.use(middleware.logData);
+app.use(userRoutes);
 
 app.listen(3000, () => {
-    console.log('Server is gestart!');
+    console.log('Server is gestart op poort 3000!');
 });
