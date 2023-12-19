@@ -1,8 +1,8 @@
-const fs = require('fs').promises;
+const fsp = require('fs/promises');
 const path = require('path');
 
 async function getContentFromFile(filePath) {
-    const data = await fs.readFile(filePath, "utf-8");
+    const data = await fsp.readFile(filePath, "utf-8");
     return JSON.parse(data);
 }
 
