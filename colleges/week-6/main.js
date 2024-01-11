@@ -1,2 +1,1 @@
-const dotenv = require('dotenv');
-dotenv.config();
+export const API_URL="https://api.github.com/users/"
