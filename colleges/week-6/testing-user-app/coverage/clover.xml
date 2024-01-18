@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1705312526082" clover="3.2.0">
+  <project timestamp="1705312526082" name="All files">
+    <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0" elements="12" coveredelements="3" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+    <file name="userController.js" path="/Users/adrigl/Documents/Artevelde/pgm-2/oefeningen-adriaanglibert/colleges/week-6/testing-user-app/src/controllers/userController.js">
+      <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
